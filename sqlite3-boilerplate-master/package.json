@@ -1,0 +1,37 @@
+{
+	"name": "sqlite3-boilerplate",
+	"description": "A utility API for the better-sqlite3 package",
+	"version": "0.0.1",
+	"license": "BSD-3-Clause",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Morfent/sqlite3-boilerplate.git"
+	},
+	"author": {
+		"name": "Ben Davies",
+		"email": "morfentdoge@gmail.com"
+	},
+	"engines": {
+		"node": ">=8.0.0"
+	},
+	"scripts": {
+		"prepare": "gulp build",
+		"test": "mocha test/index.ts"
+	},
+	"dependencies": {
+		"better-sqlite3": "^3.1.1"
+	},
+	"devDependencies": {
+		"@types/chai": "^4.0.1",
+		"@types/mocha": "^2.2.41",
+		"@types/node": "^8.0.10",
+		"chai": "^4.1.0",
+		"del": "^3.0.0",
+		"gulp": "^3.9.1",
+		"gulp-typescript": "^3.2.0",
+		"mocha": "^3.4.2",
+		"ts-node": "^3.2.0",
+		"typescript": "^2.5.0-dev.20170712"
+	},
+	"private": true
+}
